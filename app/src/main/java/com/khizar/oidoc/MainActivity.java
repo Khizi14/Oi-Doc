@@ -1,6 +1,7 @@
 package com.khizar.oidoc;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
@@ -17,10 +18,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        messagesRecyclerView = findViewById(R.id.messageRecyclerview);
         // get intent data from Register.class activity
         mobile = getIntent().getStringExtra("mobile");
         email = getIntent().getStringExtra("email");
         name = getIntent().getStringExtra("name");
+
+        messagesRecyclerView.setHasFixedSize(true);
+        messagesRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
 
     }
