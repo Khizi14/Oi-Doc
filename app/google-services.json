@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "559336276278",
+    "project_id": "oidoc-9bbae",
+    "storage_bucket": "oidoc-9bbae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559336276278:android:f91d8089f6663237aa7397",
+        "android_client_info": {
+          "package_name": "com.khizar.oidoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559336276278-r7kmcu0k4vgfu8mk0cmdgl85t79ndvr3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKovgcmJfTwmzsXM-RNMf1QE2PX7eIxlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559336276278-r7kmcu0k4vgfu8mk0cmdgl85t79ndvr3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
